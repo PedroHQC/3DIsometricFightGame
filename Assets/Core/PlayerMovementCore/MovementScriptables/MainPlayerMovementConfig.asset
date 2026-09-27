@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b6b0ae0bf3f1314bb381391d0642580, type: 3}
   m_Name: MainPlayerMovementConfig
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementConfigScriptable
-  playerSpeed: 10
+  playerMaxSpeed: 10
+  playerAcceleration: 3
+  playerDecceleration: 1
