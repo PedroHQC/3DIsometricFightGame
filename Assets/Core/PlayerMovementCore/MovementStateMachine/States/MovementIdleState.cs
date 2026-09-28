@@ -3,7 +3,6 @@ using UnityEngine;
 public class MovementIdleState : BaseState
 {
     public override StateTypes stateType => StateTypes.Idle;
-    public Vector2 dir = new();
     
     public override void Start()
     {
@@ -19,6 +18,6 @@ public class MovementIdleState : BaseState
     {
         base.StateUpdate();
         if(_stateMachine is PlayerMovementStateMachine movementStateMachine)
-        movementStateMachine.MovePlayer(dir);
+        movementStateMachine.MovePlayer(movementStateMachine.inputManager.movementVector);
     }
 }

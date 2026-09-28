@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MainPlayerMovementConfig
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementConfigScriptable
   playerMaxSpeed: 10
-  playerAcceleration: 3
-  playerDecceleration: 1
+  playerAcceleration: 8
+  playerDecceleration: 15
